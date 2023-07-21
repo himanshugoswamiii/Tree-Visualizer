@@ -20,9 +20,10 @@ public:
 
 private slots:
     void displayTree();
+    void style();
 
 private:
-    Ui::MainWindow *ui;
+//    Ui::MainWindow *ui;
     QGraphicsView *graphicsView;
     QLineEdit *traversalInput;
     QPushButton *displayButton;
